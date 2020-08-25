@@ -9,6 +9,7 @@ return [
             'subfolder'       => null,
             'default_page'    => 'installation',
             'default_version' => 'master',
+            'webhook_token'   => env('WEBHOOK_TOKEN', null),
             'versions'        => [
                 'master' => 'Master',
                 '2.4'    => '2.4',
