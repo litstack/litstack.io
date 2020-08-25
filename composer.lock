@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "886dd3530e9dd34f08b64c47779c1866",
+    "content-hash": "b26fdc55298a745c1981b302e1e4057d",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -64,16 +64,16 @@
         },
         {
             "name": "aw-studio/docdress",
-            "version": "v0.0.7",
+            "version": "v0.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aw-studio/docdress.git",
-                "reference": "08c06bae05c65aac08a73b3e8dfbd206c6836f51"
+                "reference": "4a6f0d8519924448d71c8ae3ad989b2b6ded9a4c"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/docdress/zipball/08c06bae05c65aac08a73b3e8dfbd206c6836f51",
-                "reference": "08c06bae05c65aac08a73b3e8dfbd206c6836f51",
+                "url": "https://api.github.com/repos/aw-studio/docdress/zipball/4a6f0d8519924448d71c8ae3ad989b2b6ded9a4c",
+                "reference": "4a6f0d8519924448d71c8ae3ad989b2b6ded9a4c",
                 "shasum": ""
             },
             "require": {
@@ -112,9 +112,9 @@
             ],
             "support": {
                 "issues": "https://github.com/aw-studio/docdress/issues",
-                "source": "https://github.com/aw-studio/docdress/tree/v0.0.7"
+                "source": "https://github.com/aw-studio/docdress/tree/v0.0.8"
             },
-            "time": "2020-08-25T11:55:47+00:00"
+            "time": "2020-08-25T12:35:14+00:00"
         },
         {
             "name": "brick/math",

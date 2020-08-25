@@ -9,7 +9,7 @@
     "license": "MIT",
     "require": {
         "php": "^7.2.5",
-        "aw-studio/docdress": "0.0.7",
+        "aw-studio/docdress": "0.0.8",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
         "guzzlehttp/guzzle": "^6.3",
