@@ -9,7 +9,10 @@
                 <a href="#">Link</a>
             </li>
             <li class="inline-block">
-                <x-dd-search-input repo="litstack/docs" version="master"/>
+                <x-dd-search-input 
+                    repo="litstack/docs" 
+                    :version="DEFAULT_VERSION"
+                />
             </li>
         </ul>
     </div>
