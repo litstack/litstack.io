@@ -1,1 +1,31 @@
-//
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+
+@import 'tailwindcss/base';
+
+@import 'tailwindcss/components';
+
+@import 'tailwindcss/utilities';
+
+* {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    @apply mx-auto relative;
+}
+
+.row {
+    @apply -mx-3 flex flex-wrap
+}
+
+.col {
+    @apply px-3
+}
+
+h1 {
+    @apply text-4xl leading-tight pb-6
+}
+
+.btn {
+    @apply inline-flex items-center px-8 h-12 bg-blue-500 rounded-full
+}
