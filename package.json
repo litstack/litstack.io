@@ -11,6 +11,8 @@
     },
     "devDependencies": {
         "axios": "^0.19",
+        "browser-sync": "^2.26.12",
+        "browser-sync-webpack-plugin": "^2.0.1",
         "cross-env": "^7.0",
         "laravel-mix": "^5.0.1",
         "lodash": "^4.17.19",
@@ -20,6 +22,6 @@
         "vue-template-compiler": "^2.6.12"
     },
     "dependencies": {
-        "tailwindcss": "^1.7.5"
+        "tailwindcss": "^1.7.6"
     }
 }

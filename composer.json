@@ -10,7 +10,6 @@
     "require": {
         "php": "^7.2.5",
         "aw-studio/docdress": "dev-master",
-        "cbl/blade-script": "^1.0",
         "cbl/blade-style": "^1.0",
         "fideloper/proxy": "^4.2",
         "fruitcake/laravel-cors": "^2.0",
