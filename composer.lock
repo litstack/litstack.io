@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b26fdc55298a745c1981b302e1e4057d",
+    "content-hash": "a01416ac665653eba0a0ea41cc6ee90f",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -64,16 +64,16 @@
         },
         {
             "name": "aw-studio/docdress",
-            "version": "v0.0.8",
+            "version": "dev-master",
             "source": {
                 "type": "git",
                 "url": "https://github.com/aw-studio/docdress.git",
-                "reference": "4a6f0d8519924448d71c8ae3ad989b2b6ded9a4c"
+                "reference": "dbe493e41c2c49ee9b061dcfc7b678370a678807"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/docdress/zipball/4a6f0d8519924448d71c8ae3ad989b2b6ded9a4c",
-                "reference": "4a6f0d8519924448d71c8ae3ad989b2b6ded9a4c",
+                "url": "https://api.github.com/repos/aw-studio/docdress/zipball/dbe493e41c2c49ee9b061dcfc7b678370a678807",
+                "reference": "dbe493e41c2c49ee9b061dcfc7b678370a678807",
                 "shasum": ""
             },
             "require": {
@@ -87,6 +87,7 @@
                 "orchestra/testbench": "^5.3",
                 "phpunit/phpunit": "^9.3"
             },
+            "default-branch": true,
             "type": "library",
             "extra": {
                 "laravel": {
@@ -112,9 +113,9 @@
             ],
             "support": {
                 "issues": "https://github.com/aw-studio/docdress/issues",
-                "source": "https://github.com/aw-studio/docdress/tree/v0.0.8"
+                "source": "https://github.com/aw-studio/docdress/tree/master"
             },
-            "time": "2020-08-25T12:35:14+00:00"
+            "time": "2020-08-28T10:49:02+00:00"
         },
         {
             "name": "brick/math",
@@ -7545,7 +7546,9 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {
+        "aw-studio/docdress": 20
+    },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
