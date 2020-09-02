@@ -13,8 +13,9 @@ return [
             'default_version' => 'master',
             'webhook_token'   => env('WEBHOOK_TOKEN', null),
             'algolia_app_key' => env('ALGOLIA_APP_KEY', null),
+            'title'           => 'Litstack - The Administration Framework For Laravel',
             'versions'        => [
-                'master' => 'Master',
+                'master' => '3.0',
                 '2.4'    => '2.4',
             ],
         ],
