@@ -1,5 +1,6 @@
 <?php
 
+use App\Http\Controllers\LoginController;
 use Illuminate\Support\Facades\Route;
 
 if (! defined('DEFAULT_VERSION')) {
@@ -9,3 +10,6 @@ if (! defined('DEFAULT_VERSION')) {
 Route::get('/', function () {
     return view('welcome');
 });
+
+Route::get('login/github', [LoginController::class, 'redirectToGithubProvider']);
+Route::get('login/github/callback', [LoginController::class, 'handleGithubProviderCallback']);

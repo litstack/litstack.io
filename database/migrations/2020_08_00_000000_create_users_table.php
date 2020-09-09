@@ -17,7 +17,12 @@ class CreateUsersTable extends Migration
             $table->id();
             $table->string('name');
             $table->string('nickname');
-            $table->string('email');
+            $table->string('email')->nullable();
+            $table->string('service');
+            $table->text('avatar_url');
+            $table->text('payload');
+            $table->string('token');
+            $table->string('refresh_token')->nullable();
             $table->timestamps();
         });
     }

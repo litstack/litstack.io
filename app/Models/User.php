@@ -1,8 +1,7 @@
 <?php
 
-namespace App;
+namespace App\Models;
 
-use Illuminate\Contracts\Auth\MustVerifyEmail;
 use Illuminate\Foundation\Auth\User as Authenticatable;
 use Illuminate\Notifications\Notifiable;
 
@@ -16,16 +15,17 @@ class User extends Authenticatable
      * @var array
      */
     protected $fillable = [
-        'name', 'email', 'password',
+        'name', 'email', 'service', 'avatar_url', 'payload', 'nickname',
+        'token', 'refresh_token',
     ];
 
     /**
-     * The attributes that should be hidden for arrays.
+     * Hidden attributes.
      *
      * @var array
      */
     protected $hidden = [
-        'password', 'remember_token',
+        'token', 'refresh_token',
     ];
 
     /**
@@ -34,6 +34,6 @@ class User extends Authenticatable
      * @var array
      */
     protected $casts = [
-        'email_verified_at' => 'datetime',
+        'payload' => 'json',
     ];
 }
