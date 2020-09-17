@@ -48,7 +48,7 @@
                         </h2>
                         <p>
                             Check out the official litstack packages<br>
-                            at the package store
+                            {{-- at the package store --}}
                         </p>
                     </div>
                 </div>
@@ -56,28 +56,49 @@
             <section class="bg-blue-500 pb-12">
                 <div class="container">
                     <div class="row">
-                        @for ($i = 0; $i < 3; $i++)
+                        
                         <div class="col w-1/3">
                             <x-card class="mb-6">
                                 <x-slot name="title">
                                     <div class="text-black pb-4">
-                                        Package Name
+                                        Bladesmith
                                     </div>
                                 </x-slot>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae delectus ut pariatur nulla minima. Expedita, consectetur. Ipsa alias explicabo.
-                                <x-stars rating="4" count="92" class="pt-3 pb-4"/>
-                                <a href="#" class="py-2 text-blue-600 border-b border-blue-600">
+                                <p class="pb-4">A frontend package with helper functions and Blade components for your Litstack project. Lazy loading images, translatable routes and much more.</p>
+                                {{-- <x-stars rating="4" count="92" class="pt-3 pb-4"/> --}}
+                                <a href="{{ url('docs/packages/bladesmith') }}" class="py-2 text-blue-600 border-b border-blue-600">
                                     Go to package
                                 </a>
                                 <footer class="mt-6 -mx-8 border-t border-blue-200">
                                     <div class="px-8 -mb-4 mt-4 text-xs font-bold uppercase">
-                                        <img src="https://images.unsplash.com/photo-1474176857210-7287d38d27c6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=100&h=100&q=80" class="rounded-full w-8 h-8 inline-block mr-3">
-                                        Jannes Behrens
+                                        <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="rounded-full w-8 h-8 inline-block mr-3">
+                                        Lennart Carstens-Behrens
                                     </div>
                                 </footer>
                             </x-card>
                         </div>
-                        @endfor
+                        <div class="col w-1/3">
+                            <x-card class="mb-6">
+                                <x-slot name="title">
+                                    <div class="text-black pb-4">
+                                        Pages
+                                    </div>
+                                </x-slot>
+                                <p class="pb-4">A package to turn your litstack application into a CMS. Add new pages to your application via the litstack interface, and fill them with content.</p>
+
+                                {{-- <x-stars rating="4" count="92" class="pt-3 pb-4"/> --}}
+                                <a href="{{ url('docs/packages/pages') }}" class="py-2 text-blue-600 border-b border-blue-600">
+                                    Go to package
+                                </a>
+                                <footer class="mt-6 -mx-8 border-t border-blue-200">
+                                    <div class="px-8 -mb-4 mt-4 text-xs font-bold uppercase">
+                                        <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="rounded-full w-8 h-8 inline-block mr-3">
+                                        Lennart Carstens-Behrens
+                                    </div>
+                                </footer>
+                            </x-card>
+                        </div>
+                        
                     </div>
                 </div>
             </section>
