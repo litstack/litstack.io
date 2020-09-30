@@ -45,7 +45,8 @@ return [
             'google_analytics_id' => 'UA-177622585-1',
             'title'               => 'Litstack - The Administration Framework For Laravel',
             'versions'            => [
-                'master' => '3.0',
+                'master' => '3.x',
+                '3.x'    => '3.x',
                 '2.4'    => '2.4',
             ],
         ],
