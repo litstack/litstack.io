@@ -36,13 +36,15 @@ h1 {
     }
 
     &.btn-outline {
-        @apply border border-black text-black
+        @apply border border-blue-900 text-blue-900
     }
 }
 
 
 #dd-search {
-    padding-left: 25px;
+    @apply text-blue-900 p-2 border border-blue-900 rounded-lg;
+    padding-left: 35px;
     background: transparent;
     outline: none !important;
+    border-radius: .875rem;
 }
