@@ -7,8 +7,8 @@
             <li class="lg:inline-block mr-16 hidden">
                 <a href="{{ url('docs') }}" target="_blank">Documentation</a>
             </li>
-            <li class="inline-flex items-center text-blue-900 p-2 border border-blue-900 rounded-full">
-                <div class="absolute">
+            <li class="inline-flex items-center">
+                <div class="absolute ml-3">
                     <svg class="jam-icon jam-3 fill-current w-5 h-5" xmlns="http://www.w3.org/2000/svg" viewBox="-2.5 -2.5 24 24" preserveAspectRatio="xMinYMin" ><path d="M8 14A6 6 0 108 2a6 6 0 000 12zm6.32-1.094l3.58 3.58a1 1 0 11-1.415 1.413l-3.58-3.58a8 8 0 111.414-1.414z"/></svg>
                 </div>
                 <x-dd-search-input 
