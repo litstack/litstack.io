@@ -178,6 +178,27 @@
                                 </footer>
                             </x-card>
                         </div>
+                        <div class="w-1/3 col">
+                            <x-card class="mb-6">
+                                <x-slot name="title">
+                                    <div class="pb-4 text-black">
+                                        Rehearsal
+                                    </div>
+                                </x-slot>
+                                <p class="pb-4">An orchestra extension to simplify testing packages in a **litstack** application environment.</p>
+
+                                {{-- <x-stars rating="4" count="92" class="pt-3 pb-4"/> --}}
+                                <a href="{{ url('docs/packages/rehearsal') }}" class="py-2 text-blue-600 border-b border-blue-600">
+                                    Go to package
+                                </a>
+                                <footer class="mt-6 -mx-8 border-t border-blue-200">
+                                    <div class="px-8 mt-4 -mb-4 text-xs font-bold uppercase">
+                                        <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
+                                        Lennart Carstens-Behrens
+                                    </div>
+                                </footer>
+                            </x-card>
+                        </div>
                         
                     </div>
                 </div>
