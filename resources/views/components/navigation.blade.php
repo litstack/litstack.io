@@ -5,7 +5,7 @@
         </a>
         <ul class="flex items-center">
             <li class="lg:inline-block mr-16 hidden">
-                <a href="https://litstack.io/docs/master" target="_blank">Documentation</a>
+                <a href="{{ url('docs') }}" target="_blank">Documentation</a>
             </li>
             <li class="inline-flex items-center text-blue-900 p-2 border border-blue-900 rounded-full">
                 <div class="absolute">
