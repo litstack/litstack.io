@@ -26,10 +26,10 @@
                 <div class="justify-center row">
                     <div class="w-3/4 py-20 text-center col">
                         <p class="text-xl">
-                            Litstack is a framwork for lightning fast creation of Laravel Admin Panels.
+                            Litstack is a framwork for lightning fast creation of Laravel Admin Panels.<br>
                             It offers the possibility to extend Laravel models with CRUD functionality and edit them in a highly extensible interface.
                             Freely configurable forms offer endless possibilities to prepare and manage content of all kinds.
-                            In addition, litstack offers role and permission management, media management and helpers to populate a frontend with your form data.
+                            {{-- In addition, litstack offers role and permission management, media management and helpers to populate a frontend with your form data. --}}
                         </p>
                     </div>
                 </div>
@@ -199,7 +199,7 @@
                                         Rehearsal
                                     </div>
                                 </x-slot>
-                                <p class="pb-4">An orchestra extension to simplify testing packages in a **litstack** application environment.</p>
+                                <p class="pb-4">An orchestra extension to simplify testing packages in a litstack application environment.</p>
 
                                 {{-- <x-stars rating="4" count="92" class="pt-3 pb-4"/> --}}
                                 <a href="{{ url('docs/packages/rehearsal') }}" class="py-2 text-blue-600 border-b border-blue-600">
