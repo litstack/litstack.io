@@ -35,14 +35,18 @@ return [
      */
 
     'repos' => [
-        'my/repo' => [
-            'route_prefix'    => 'docs',
-            'subfolder'       => null,
-            'default_page'    => 'introduction',
-            'default_version' => 'master',
-            'algolia_app_key' => env('ALGOLIA_APP_KEY', null),
-            'versions'        => [
-                'master' => 'Master',
+        'litstack/docs' => [
+            'route_prefix'        => 'docs',
+            'subfolder'           => null,
+            'default_page'        => 'installation',
+            'default_version'     => 'master',
+            'webhook_token'       => env('WEBHOOK_TOKEN', null),
+            'algolia_app_key'     => env('ALGOLIA_APP_KEY', null),
+            'google_analytics_id' => 'UA-177622585-1',
+            'title'               => 'Litstack - The Administration Framework For Laravel',
+            'versions'            => [
+                'master' => '3.0',
+                '2.4'    => '2.4',
             ],
         ],
     ],
