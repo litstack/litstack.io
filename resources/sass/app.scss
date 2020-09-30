@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap");
 
 @import "tailwindcss/base";
 
@@ -8,6 +8,8 @@
 
 * {
     font-family: "Inter", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 .container {
@@ -27,5 +29,13 @@ h1 {
 }
 
 .btn {
-    @apply inline-flex items-center px-8 h-12 bg-blue-500 rounded-full;
+    @apply inline-flex items-center px-8 h-12 rounded-lg box-border;
+
+    &.btn-primary {
+        @apply bg-blue-500 text-white
+    }
+
+    &.btn-outline {
+        @apply border border-black text-black
+    }
 }
