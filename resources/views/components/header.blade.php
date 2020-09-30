@@ -1,5 +1,5 @@
 <header class="relative pt-32 pb-16 overflow-hidden text-black bg-blue-100">
-    <div class="container z-10">
+    <div class="container z-10 pb-24 xl:pb-0">
         <div class="row">
             <div class="w-full lg:w-2/5 col">
                 <h1 class="font-semibold">

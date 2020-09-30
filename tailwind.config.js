@@ -1,5 +1,5 @@
 module.exports = {
-    purge: [],
+    purge: ['./resources/**/*.php'],
     theme: {
         borderRadius: {
             none: '0',
@@ -7,7 +7,7 @@ module.exports = {
             default: '0.25rem',
             md: '0.5rem',
             lg: '0.875rem',
-            full: '9999px',
+            full: '9999px'
         },
         extend: {
             colors: {
@@ -20,21 +20,21 @@ module.exports = {
                     '600': '#2831C5',
                     '700': '#252B88',
                     '800': '#1D2378',
-                    '900': '#070A1F',
+                    '900': '#070A1F'
                 },
                 yellow: {
-                    '500': '#FFD05A',
-                },
+                    '500': '#FFD05A'
+                }
             },
             fontSize: {
                 sm: ['11px', '18px'],
                 base: ['14px', '26px'],
                 lg: ['16px', '29px'],
                 xl: ['20px', '40px'],
-                '2xl': ['35px', '41px'],
-            },
-        },
+                '2xl': ['35px', '41px']
+            }
+        }
     },
     variants: {},
-    plugins: [],
+    plugins: []
 };
