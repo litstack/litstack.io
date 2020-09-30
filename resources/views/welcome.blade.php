@@ -4,6 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/favicon/site.webmanifest">
+    <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#4853f2">
+    <meta name="msapplication-TileColor" content="#070a1f">
+    <meta name="theme-color" content="#070a1f">
     <title>litstack.io</title>
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="crossorigin="anonymous"></script>
@@ -17,15 +24,18 @@
         <main class="text-white">
             <div class="container z-10">
                 <div class="justify-center row">
-                    <div class="w-2/3 py-20 text-center col">
-                        <p>
-                            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Impedit nemo, itaque aliquid aperiam voluptates architecto sed, ea eum eius reiciendis consequatur iusto exercitationem voluptas! Nulla ducimus nesciunt cumque error ratione?
+                    <div class="w-3/4 py-20 text-center col">
+                        <p class="text-xl">
+                            Litstack is a framwork for lightning fast creation of Laravel Admin Panels.
+                            It offers the possibility to extend Laravel models with CRUD functionality and edit them in a highly extensible interface.
+                            Freely configurable forms offer endless possibilities to prepare and manage content of all kinds.
+                            In addition, litstack offers role and permission management, media management and helpers to populate a frontend with your form data.
                         </p>
                     </div>
                 </div>
 
                 <div class="justify-center row">
-                    <div class="w-1/3 col">
+                    <div class="w-full md:w-1/2 lg:w-1/3 col">
                         <x-card class="mb-6">
                             <x-slot name="title">
                                 <div class="pb-2">
@@ -38,7 +48,7 @@
                             It is super easy to integrate litstack into existing projects. No models, providers or controllers need to be touched. Also Api versioning is no problem with listack.
                         </x-card>
                     </div>
-                    <div class="w-1/3 col">
+                    <div class="w-full md:w-1/2 lg:w-1/3 col">
                         <x-card class="mb-6">
                             <x-slot name="title">
                                 <div class="pb-2">
@@ -51,7 +61,7 @@
                             Litstack does not care if you prefer livewire, vue or classic plain Blade components. Choose what you like best and start customizing to your needs.
                         </x-card>
                     </div>
-                    <div class="w-1/3 col">
+                    <div class="w-full md:w-1/2 lg:w-1/3 col">
                         <x-card class="mb-6">
                             <x-slot name="title">
                                 <div class="pb-2">
@@ -64,7 +74,7 @@
                             Attach fields to Model attributes. Manage every existing Laravel relation and edit pivot data for polymorphic many-to-many relationships.
                         </x-card>
                     </div>
-                    <div class="w-1/3 col">
+                    <div class="w-full md:w-1/2 lg:w-1/3 col">
                         <x-card class="mb-6">
                             <x-slot name="title">
                                 <div class="pb-2">
@@ -77,7 +87,7 @@
                             Let the user perform actions like sending mails for one or more models and place them wherever they are needed. In index tables, crud pages or globally in the navigaton.
                         </x-card>
                     </div>
-                    <div class="w-1/3 col">
+                    <div class="w-full md:w-1/2 lg:w-1/3 col">
                         <x-card class="mb-6">
                             <x-slot name="title">
                                 <div class="pb-2">
@@ -91,7 +101,7 @@
                         </x-card>
                     </div>
                     
-                    <div class="w-1/3 col">
+                    <div class="w-full md:w-1/2 lg:w-1/3 col">
                         <x-card class="mb-6">
                             <x-slot name="title">
                                 <div class="pb-2">
@@ -104,7 +114,7 @@
                             Litstack makes it easy to create authorization through permissions. Also the build in permission manager makes managing roles and permissions a breeze.
                         </x-card>
                     </div>
-                    <div class="w-1/3 col">
+                    <div class="w-full md:w-1/2 lg:w-1/3 col">
                         <x-card class="mb-6">
                             <x-slot name="title">
                                 <div class="pb-2">
@@ -119,26 +129,30 @@
                     </div>
                 </div>
             </div>
-            <div class="relative">
+            
+            <section class="relative mt-32 bg-blue-100">
+                <div class="absolute top-0 w-full -mt-1 text-blue-900 ">
+                    <svg viewBox="0 0 800 83" class="w-full h-auto fill-current transform rotate-180" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M0 82.871V62.3C134.017 20.767 267.584 0 400.701 0 533.818 0 666.917 20.767 800 62.3v20.571H0z"/></svg>
+                </div>
                 <div class="relative flex justify-center">
-                    <div class="pt-20 pb-40 text-center text-blue-500">
+                    <div class="pt-20 pb-40 -mt-48 lg:-mt-32 text-center text-blue-100">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" class="w-8 h-8 mx-auto fill-current" preserveAspectRatio="xMinYMin" class="jam-icon jam-3"><path d="M6 2H3a1 1 0 00-1 1v2a1 1 0 001 1h2a1 1 0 001-1V2zM3.01 8v9.965H5V13a2 2 0 012-2h2a2 2 0 012 2v4.965h6.013V8H15c-.768 0-1.47-.289-2-.764A2.989 2.989 0 0111 8H9c-.768 0-1.47-.289-2-.764A2.989 2.989 0 015 8H3.01zm-2-.754A2.993 2.993 0 010 5V3a3 3 0 013-3h14a3 3 0 013 3v2c0 .882-.38 1.676-.987 2.225v10.74a2 2 0 01-2 2h-7.64A2.01 2.01 0 019 20H7a2.01 2.01 0 01-.373-.035H3.011a2 2 0 01-2-2V7.245zM9 17.966V13H7v4.965h2zM12 2H8v3a1 1 0 001 1h2a1 1 0 001-1V2zm2 0v3a1 1 0 001 1h2a1 1 0 001-1V3a1 1 0 00-1-1h-3zm0 9h1a1 1 0 011 1v3a1 1 0 01-1 1h-1a1 1 0 01-1-1v-3a1 1 0 011-1z"/></svg>
-                        <h2 class="py-3 text-2xl font-bold">
+                        <h2 class="pt-3 pb-0 text-xl font-semibold ">
                             There is even more...
                         </h2>
-                        <p>
+                        <p class="text-xl -mt-2 ">
                             Check out the official litstack packages<br>
-                            {{-- at the package store --}}
                         </p>
                     </div>
                 </div>
             </div>
-            <section class="pb-12 bg-blue-100">
+            <section class="relative pb-12 bg-blue-100">
+                
                 <div class="container">
                     <div class="row">
                         
-                        <div class="w-1/3 col">
-                            <x-card class="mb-6">
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="relative pb-24">
                                 <x-slot name="title">
                                     <div class="pb-4 text-black">
                                         Bladesmith
@@ -149,16 +163,16 @@
                                 <a href="{{ url('docs/packages/bladesmith') }}" class="py-2 text-blue-600 border-b border-blue-600">
                                     Go to package
                                 </a>
-                                <footer class="mt-6 -mx-8 border-t border-blue-200">
-                                    <div class="px-8 mt-4 -mb-4 text-xs font-bold uppercase">
+                                <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
+                                    <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
                                         Lennart Carstens-Behrens
                                     </div>
                                 </footer>
                             </x-card>
                         </div>
-                        <div class="w-1/3 col">
-                            <x-card class="mb-6">
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="relative pb-24">
                                 <x-slot name="title">
                                     <div class="pb-4 text-black">
                                         Pages
@@ -170,16 +184,16 @@
                                 <a href="{{ url('docs/packages/pages') }}" class="py-2 text-blue-600 border-b border-blue-600">
                                     Go to package
                                 </a>
-                                <footer class="mt-6 -mx-8 border-t border-blue-200">
-                                    <div class="px-8 mt-4 -mb-4 text-xs font-bold uppercase">
+                                <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
+                                    <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
                                         Lennart Carstens-Behrens
                                     </div>
                                 </footer>
                             </x-card>
                         </div>
-                        <div class="w-1/3 col">
-                            <x-card class="mb-6">
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="relative pb-24">
                                 <x-slot name="title">
                                     <div class="pb-4 text-black">
                                         Rehearsal
@@ -191,8 +205,8 @@
                                 <a href="{{ url('docs/packages/rehearsal') }}" class="py-2 text-blue-600 border-b border-blue-600">
                                     Go to package
                                 </a>
-                                <footer class="mt-6 -mx-8 border-t border-blue-200">
-                                    <div class="px-8 mt-4 -mb-4 text-xs font-bold uppercase">
+                                <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
+                                    <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
                                         Lennart Carstens-Behrens
                                     </div>
@@ -204,6 +218,8 @@
                 </div>
             </section>
         </main>
+
+
         @include('partials.footer')
     </div>
 </body>

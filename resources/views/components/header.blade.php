@@ -1,7 +1,7 @@
 <header class="relative pt-32 pb-16 overflow-hidden text-black bg-blue-100">
     <div class="container z-10">
         <div class="row">
-            <div class="w-2/5 col">
+            <div class="w-full lg:w-2/5 col">
                 <h1 class="font-semibold">
                     Beautiful Laravel<br>
                     Content-Administration
@@ -9,7 +9,7 @@
                 <h2 class="pb-12 text-lg">
                     Set up appealing Laravel admin panels in record time and make your administrative tasks enjoyable.
                 </h2>
-                <a href="#" class="mr-4 btn btn-primary">
+                <a href="https://litstack.io/docs/master/installation" class="mr-4 btn btn-primary">
                     Try it out
                 </a>
                 <a href="https://github.com/litstack/litstack" class="btn btn-outline">
@@ -18,8 +18,8 @@
                     <span class="pl-10">visit at github</span>
                 </a>
             </div>
-            <div class="w-3/5 col">
-                <img class="w-full h-auto rounded-lg shadow-lg" src="/images/litstack_interface.png" alt="">
+            <div class="w-full lg:w-3/5 col">
+                <img class="w-full h-auto rounded-lg shadow-2xl" src="/images/litstack_interface.png" alt="">
             </div>
         </div>
     </div>

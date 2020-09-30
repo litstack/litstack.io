@@ -21055,6 +21055,8 @@ video {
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-left: 2rem;
+  padding-right: 2rem;
   position: relative;
 }
 
@@ -21068,6 +21070,7 @@ video {
 .col {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
+  margin-bottom: 1.5rem;
 }
 
 h1 {
@@ -21103,6 +21106,11 @@ h1 {
   --text-opacity: 1;
   color: #000;
   color: rgba(0, 0, 0, var(--text-opacity));
+}
+
+#dd-search {
+  padding-left: 30px;
+  background: transparent;
 }
 
 @media (min-width: 640px){

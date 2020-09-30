@@ -13,7 +13,7 @@
 }
 
 .container {
-    @apply mx-auto relative;
+    @apply mx-auto px-8 relative;
 }
 
 .row {
@@ -21,7 +21,7 @@
 }
 
 .col {
-    @apply px-3;
+    @apply px-3 mb-6;
 }
 
 h1 {
@@ -38,4 +38,10 @@ h1 {
     &.btn-outline {
         @apply border border-black text-black
     }
+}
+
+
+#dd-search {
+    padding-left: 30px;
+    background: transparent;
 }
