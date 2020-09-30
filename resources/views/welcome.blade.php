@@ -166,7 +166,7 @@
                                 <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
                                     <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
-                                        Lennart Carstens-Behrens
+                                        <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
                                     </div>
                                 </footer>
                             </x-card>
@@ -187,7 +187,7 @@
                                 <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
                                     <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
-                                        Lennart Carstens-Behrens
+                                        <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
                                     </div>
                                 </footer>
                             </x-card>
@@ -208,7 +208,7 @@
                                 <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
                                     <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
-                                        Lennart Carstens-Behrens
+                                        <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
                                     </div>
                                 </footer>
                             </x-card>
