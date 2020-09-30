@@ -19395,9 +19395,9 @@ window.axios.defaults.headers.common['X-Requested-With'] = 'XMLHttpRequest';
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /Users/helen/git/litstack.io/resources/js/app.js */"./resources/js/app.js");
-__webpack_require__(/*! /Users/helen/git/litstack.io/vendor/aw-studio/docdress/assets/sass/app.scss */"./vendor/aw-studio/docdress/assets/sass/app.scss");
-module.exports = __webpack_require__(/*! /Users/helen/git/litstack.io/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/jannes/git/litstack.io/resources/js/app.js */"./resources/js/app.js");
+__webpack_require__(/*! /Users/jannes/git/litstack.io/vendor/aw-studio/docdress/assets/sass/app.scss */"./vendor/aw-studio/docdress/assets/sass/app.scss");
+module.exports = __webpack_require__(/*! /Users/jannes/git/litstack.io/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
