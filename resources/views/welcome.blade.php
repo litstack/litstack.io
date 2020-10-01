@@ -19,7 +19,12 @@
     <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#4853f2">
     <meta name="msapplication-TileColor" content="#070a1f">
     <meta name="theme-color" content="#070a1f">
-    <title>litstack.io</title>
+
+    <meta property=”og:image” content=”/images/litstack_og.jpg” />
+    <meta property="og:title" content="litstack - Laravel content administration framework"/>
+    <meta property="og:description" content="A framework for lightning fast creation of Laravel Admin Panels. Litstack offers the possibility to extend Laravel models with CRUD functionality and edit them in a highly extensible interface.">
+
+    <title>litstack - Laravel content administration framework</title>
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="crossorigin="anonymous"></script>
     <x-styles />
