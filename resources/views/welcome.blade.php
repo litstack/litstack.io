@@ -32,7 +32,7 @@
         <main class="text-white">
             <div class="container z-10">
                 <div class="justify-center row">
-                    <div class="w-3/4 py-20 text-center col">
+                    <div class="w-full py-20 text-center lg:w-3/4 col">
                         <p class="text-xl">
                             A framework for lightning fast creation of Laravel Admin Panels.<br>
                             Litstack offers the possibility to extend Laravel models with CRUD functionality and edit them in a highly extensible interface.
@@ -140,15 +140,15 @@
             
             <section class="relative mt-32 bg-blue-100">
                 <div class="absolute top-0 w-full -mt-1 text-blue-900 ">
-                    <svg viewBox="0 0 800 83" class="w-full h-auto fill-current transform rotate-180" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M0 82.871V62.3C134.017 20.767 267.584 0 400.701 0 533.818 0 666.917 20.767 800 62.3v20.571H0z"/></svg>
+                    <svg viewBox="0 0 800 83" class="w-full h-auto transform rotate-180 fill-current" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M0 82.871V62.3C134.017 20.767 267.584 0 400.701 0 533.818 0 666.917 20.767 800 62.3v20.571H0z"/></svg>
                 </div>
                 <div class="relative flex justify-center">
-                    <div class="pt-20 pb-40 -mt-48 lg:-mt-32 text-center text-blue-100">
+                    <div class="pt-20 pb-40 -mt-48 text-center text-blue-100 lg:-mt-32">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" class="w-8 h-8 mx-auto fill-current" preserveAspectRatio="xMinYMin" class="jam-icon jam-3"><path d="M6 2H3a1 1 0 00-1 1v2a1 1 0 001 1h2a1 1 0 001-1V2zM3.01 8v9.965H5V13a2 2 0 012-2h2a2 2 0 012 2v4.965h6.013V8H15c-.768 0-1.47-.289-2-.764A2.989 2.989 0 0111 8H9c-.768 0-1.47-.289-2-.764A2.989 2.989 0 015 8H3.01zm-2-.754A2.993 2.993 0 010 5V3a3 3 0 013-3h14a3 3 0 013 3v2c0 .882-.38 1.676-.987 2.225v10.74a2 2 0 01-2 2h-7.64A2.01 2.01 0 019 20H7a2.01 2.01 0 01-.373-.035H3.011a2 2 0 01-2-2V7.245zM9 17.966V13H7v4.965h2zM12 2H8v3a1 1 0 001 1h2a1 1 0 001-1V2zm2 0v3a1 1 0 001 1h2a1 1 0 001-1V3a1 1 0 00-1-1h-3zm0 9h1a1 1 0 011 1v3a1 1 0 01-1 1h-1a1 1 0 01-1-1v-3a1 1 0 011-1z"/></svg>
                         <h2 class="pt-3 pb-0 text-xl font-semibold ">
                             There is even more...
                         </h2>
-                        <p class="text-xl -mt-2 ">
+                        <p class="-mt-2 text-xl ">
                             Check out the official litstack packages<br>
                         </p>
                     </div>
@@ -171,7 +171,7 @@
                                 <a href="{{ url('docs/packages/bladesmith') }}" class="py-2 text-blue-600 border-b border-blue-600">
                                     Go to package
                                 </a>
-                                <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
+                                <footer class="absolute bottom-0 w-full py-4 mt-6 -mx-8 border-t border-blue-200">
                                     <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
                                         <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
@@ -192,7 +192,7 @@
                                 <a href="{{ url('docs/packages/pages') }}" class="py-2 text-blue-600 border-b border-blue-600">
                                     Go to package
                                 </a>
-                                <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
+                                <footer class="absolute bottom-0 w-full py-4 mt-6 -mx-8 border-t border-blue-200">
                                     <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
                                         <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
@@ -213,7 +213,7 @@
                                 <a href="{{ url('docs/packages/rehearsal') }}" class="py-2 text-blue-600 border-b border-blue-600">
                                     Go to package
                                 </a>
-                                <footer class="absolute bottom-0 py-4 w-full mt-6 -mx-8 border-t border-blue-200">
+                                <footer class="absolute bottom-0 w-full py-4 mt-6 -mx-8 border-t border-blue-200">
                                     <div class="px-8 text-xs font-bold uppercase">
                                         <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
                                         <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
