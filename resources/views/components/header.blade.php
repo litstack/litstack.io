@@ -1,4 +1,4 @@
-<header class="relative pt-12 pb-16 overflow-hidden text-black bg-blue-100 lg:pt-32">
+<header class="relative pt-12 pb-16 overflow-hidden text-black bg-blue-100 lit-header lg:pt-32">
     <div class="container z-10 pb-24 xl:pb-0">
         <div class="row">
             <div class="w-full lg:w-2/5 col">
@@ -9,7 +9,7 @@
                 <h2 class="pb-12 text-lg">
                     Set up appealing Laravel admin panels in record time and make your administrative tasks enjoyable.
                 </h2>
-                <div>
+                <div class="flex justify-center lg:justify-start">
                     <a href="{{ url('docs') }}" class="mb-2 mr-4 btn btn-primary">
                         Read the docs
                     </a>

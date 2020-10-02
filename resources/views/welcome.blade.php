@@ -24,6 +24,9 @@
     <meta property="og:title" content="litstack - Laravel content administration framework"/>
     <meta property="og:description" content="A framework for lightning fast creation of Laravel Admin Panels. Litstack offers the possibility to extend Laravel models with CRUD functionality and edit them in a highly extensible interface.">
 
+    <meta name="description" content="A framework for creating Laravel admin panels. Extend Laravel models with CRUD functionality, build forms and edit your data in a highly extensible interface." />
+    <meta title="litstack - Laravel content administration framework" />
+    
     <title>litstack - Laravel content administration framework</title>
     <link rel="stylesheet" href="{{ asset('/css/app.css') }}">
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="crossorigin="anonymous"></script>
