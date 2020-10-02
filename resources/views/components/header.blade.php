@@ -10,7 +10,7 @@
                     Set up appealing Laravel admin panels in record time and make your administrative tasks enjoyable.
                 </h2>
                 <div>
-                    <a href="https://litstack.io/docs/master/installation" class="mb-2 mr-4 btn btn-primary">
+                    <a href="{{ url('docs') }}" class="mb-2 mr-4 btn btn-primary">
                         Read the docs
                     </a>
                     <a href="https://github.com/litstack/litstack" class="mb-2 btn btn-outline">
