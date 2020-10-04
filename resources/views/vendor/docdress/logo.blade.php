@@ -18,3 +18,14 @@
         </g>
     </svg>
 </a>
+<iframe src="https://github.com/sponsors/litstack/button" title="Sponsor litstack" height="35" width="116" style="border: 0;margin: 1.5rem 0;"></iframe>
+<x-style lang="scss">
+div#docs {
+    nav {
+        top: 8.5rem !important;
+    }
+}
+div#docs .content iframe.github-sponsor, div#docs .content img {
+    border-radius: 0 !important;
+}
+</x-style>
