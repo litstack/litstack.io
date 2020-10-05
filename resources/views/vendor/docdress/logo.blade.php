@@ -25,7 +25,7 @@ div#docs {
         top: 8.5rem !important;
     }
 }
-div#docs .content iframe.github-sponsor, div#docs .content img {
+div#docs .content .github-sponsor {
     border-radius: 0 !important;
     box-shadow: none !important;
 }
