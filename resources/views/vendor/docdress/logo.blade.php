@@ -26,6 +26,7 @@ div#docs {
     }
 }
 div#docs .content iframe.github-sponsor, div#docs .content img {
-    // border-radius: 0 !important;
+    border-radius: 0 !important;
+    box-shadow: none !important;
 }
 </x-style>
