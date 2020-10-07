@@ -4,7 +4,7 @@
             <img src="/images/litstack_logo.svg" alt="Litstack Logo" class="h-12 mt-2">
         </a>
         <ul class="flex items-center">
-            <li class="hidden mr-16 lg:inline-block">
+            <li class="mr-16 lg:inline-block">
                 <a href="{{ url('docs') }}" target="_blank">Documentation</a>
             </li>
             <li class="items-center hidden lg:inline-flex">
