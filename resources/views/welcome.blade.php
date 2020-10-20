@@ -99,7 +99,7 @@
                             <h2 class="pt-3 pb-0 text-xl font-semibold ">
                                 There is more...
                             </h2>
-                            <p class="-mt-2" style="max-width: 600px;">
+                            <p class="-mt-2 text-xl" style="max-width: 600px;">
                                 See Just some of the build in Features below. Or checkout our extensive and simple docs that guide you through whatever you want to build.<br>
                             </p>
                         </div>
