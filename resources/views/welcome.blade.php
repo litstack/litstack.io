@@ -89,7 +89,7 @@
                                         Compatibility
                                     </div>
                                 </x-slot>
-                                Build api-based application with a separate front end. Manage IOS, Android, web or any kind of app using litstack.
+                                Build api-based application with a separate front end. Manage content for any kind of application using litstack.
                             </x-card>
                         </div>
                     </div>
