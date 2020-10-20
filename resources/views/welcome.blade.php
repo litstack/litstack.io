@@ -40,7 +40,7 @@
         <x-header/>
         
         <main class="text-white">
-            <section class="pb-32 bg-blue-900">
+            <section class="bg-blue-900 pb-32">
                 <div class="container z-10">
                     <div class="justify-center row">
                         <div class="w-full py-20 text-center lg:w-3/4 col">
@@ -51,14 +51,67 @@
                             </p>
                         </div>
                     </div>
-    
+
                     <div class="justify-center row">
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="mb-6">
+                            <x-card class="mb-6 bg-white text-blue-900">
                                 <x-slot name="title">
                                     <div class="pb-2">
                                         <div class="mb-4 text-blue-500">
-                                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 7v10c0 2.21 3.582 4 8 4s8-1.79 8-4V7M4 7c0 2.21 3.582 4 8 4s8-1.79 8-4M4 7c0-2.21 3.582-4 8-4s8 1.79 8 4m0 5c0 2.21-3.582 4-8 4s-8-1.79-8-4"></path></svg>
+                                            <svg class="h-8 w-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M43 16V42H5V16V16" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M5 4H43V16H5V4Z" fill="#FFF" stroke="#4853f2" stroke-width="4" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M11 12C12.1046 12 13 11.1046 13 10C13 8.89543 12.1046 8 11 8C9.89543 8 9 8.89543 9 10C9 11.1046 9.89543 12 11 12Z" fill="#4853f2"/><path fill-rule="evenodd" clip-rule="evenodd" d="M17 12C18.1046 12 19 11.1046 19 10C19 8.89543 18.1046 8 17 8C15.8954 8 15 8.89543 15 10C15 11.1046 15.8954 12 17 12Z" fill="#4853f2"/><path fill-rule="evenodd" clip-rule="evenodd" d="M23 12C24.1046 12 25 11.1046 25 10C25 8.89543 24.1046 8 23 8C21.8954 8 21 8.89543 21 10C21 11.1046 21.8954 12 23 12Z" fill="#4853f2"/></svg>
+                                        </div>
+                                        Usability
+                                    </div>
+                                </x-slot>
+                                Simple and self-explaning admin panel to give developers and operators more time for productivity in what they do best.
+                            </x-card>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="mb-6 bg-white text-blue-900">
+                                <x-slot name="title">
+                                    <div class="pb-2">
+                                        <div class="mb-4 text-blue-500">
+                                            <svg style="transform: rotate(-90deg);" class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M30 41.9999H42V29.9999" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 17.9999V5.99994H30" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M42 6L6 42" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M24 23.9999L6 5.99994M31.5 31.4999L34 33.9999L39 38.9999L41.5 41.4999L42 41.9999" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                        </div>
+                                        Flexability
+                                    </div>
+                                </x-slot>
+                                Clean codebase with testable declarative code that keeps your project prepared for any kind of changes.
+                            </x-card>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="mb-6 bg-white text-blue-900">
+                                <x-slot name="title">
+                                    <div class="pb-2">
+                                        <div class="mb-4 text-blue-500">
+                                            <svg class="h-8 w-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M14 29H42V41H14V35V29Z" fill="#4853f2"/><path d="M14 7H42V19H14V13V7Z" fill="#FFF"/><path d="M14 13V19H42V7H14V13ZM14 13H6V35H14M14 35V41H42V29H14V35Z" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 13H6V35H14" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 29H42V41H14V35V29Z" fill="#FFF" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 7H42V19H14V13V7Z" fill="#FFF" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                        </div>
+                                        Compatibility
+                                    </div>
+                                </x-slot>
+                                Build api-based application with a separate front end. Manage IOS, Android, web or any kind of app using litstack.
+                            </x-card>
+                        </div>
+                    </div>
+
+                    <div class="relative flex justify-center">
+                        <div class="pb-40 mt-12 text-center text-blue-100 lg:pb-24 lg:mt-10">
+                            <h2 class="pt-3 pb-0 text-xl font-semibold ">
+                                There is more...
+                            </h2>
+                            <p class="-mt-2 text-xl" style="max-width: 600px;">
+                                See Just some of the build in Features below. Or checkout our extensive and simple docs that guide you through whatever you want to build.<br>
+                            </p>
+                        </div>
+                    </div>
+    
+                    <div class="justify-center row">
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="mb-6 shadow-none">
+                                <x-slot name="title">
+                                    <div class="pb-2">
+                                        <div class="mb-4 text-blue-500">
+                                            <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><ellipse cx="24" cy="11" rx="20" ry="6" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.7709 15.5C6.61878 16.5994 4 18.208 4 20C4 23.3137 12.9543 26 24 26C35.0457 26 44 23.3137 44 20C44 18.208 41.3812 16.5994 37.2291 15.5C33.7035 16.4335 29.0722 17 24 17C18.9278 17 14.2965 16.4335 10.7709 15.5Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.7709 24.5C6.61878 25.5994 4 27.208 4 29C4 32.3137 12.9543 35 24 35C35.0457 35 44 32.3137 44 29C44 27.208 41.3812 25.5994 37.2291 24.5C33.7035 25.4335 29.0722 26 24 26C18.9278 26 14.2965 25.4335 10.7709 24.5Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M10.7709 33.5C6.61878 34.5994 4 36.208 4 38C4 41.3137 12.9543 44 24 44C35.0457 44 44 41.3137 44 38C44 36.208 41.3812 34.5994 37.2291 33.5C33.7035 34.4335 29.0722 35 24 35C18.9278 35 14.2965 34.4335 10.7709 33.5Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
                                         </div>
                                         Headless
                                     </div>
@@ -67,11 +120,11 @@
                             </x-card>
                         </div>
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="mb-6">
+                            <x-card class="mb-6 shadow-none">
                                 <x-slot name="title">
                                     <div class="pb-2">
                                         <div class="mb-4 text-blue-500">
-                                            <svg class="w-8 h-8 fill-current" enable-background="new 0 0 512 512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg"><g><path d="m323.5 402.909c-7.18 4.146-9.639 13.314-5.493 20.493l30 51.958c4.149 7.185 13.341 9.624 20.493 5.491 7.178-4.146 9.639-13.314 5.493-20.491l-30-51.958c-4.147-7.194-13.359-9.668-20.493-5.493z"/><path d="m143.5 31.146c-7.18 4.146-9.639 13.314-5.493 20.493l30 51.956c4.149 7.185 13.341 9.628 20.493 5.493 7.178-4.146 9.639-13.314 5.493-20.493l-30-51.956c-4.162-7.194-13.345-9.638-20.493-5.493z"/><path d="m168.007 408.402-30 51.958c-4.146 7.178-1.686 16.346 5.493 20.491 7.139 4.125 16.337 1.705 20.493-5.491l30-51.958c4.146-7.18 1.685-16.348-5.493-20.493-7.18-4.175-16.362-1.701-20.493 5.493z"/><path d="m323.5 109.089c7.139 4.125 16.337 1.705 20.493-5.493l30-51.956c4.146-7.18 1.685-16.348-5.493-20.493-7.192-4.146-16.348-1.701-20.493 5.493l-30 51.956c-4.146 7.179-1.687 16.347 5.493 20.493z"/><path d="m256 512c8.291 0 15-6.709 15-15v-61c0-8.293-6.709-15-15-15-8.293 0-15 6.707-15 15v61c0 8.291 6.707 15 15 15z"/><path d="m241 76c0 8.291 6.707 15 15 15 8.291 0 15-6.709 15-15v-61c0-8.293-6.709-15-15-15-8.293 0-15 6.707-15 15z"/><path d="m15 286h151c8.282 0 15-6.718 15-15v-30c0-8.284-6.718-15-15-15h-151c-8.284 0-15 6.716-15 15v30c0 8.282 6.716 15 15 15z"/><path d="m255.376 183.466 5.004-30.007c1.536-9.093-5.511-17.459-14.797-17.459h-79.583c-36.216 0-66.513 25.809-73.482 60h148.063c7.331 0 13.59-5.301 14.795-12.534z"/><path d="m220.374 363.468 5.001-30.002c1.525-9.142-5.526-17.466-14.795-17.466h-118.062c6.969 34.191 37.266 60 73.482 60h39.578c7.332 0 13.59-5.301 14.796-12.532z"/><path d="m497 226h-151c-8.284 0-15 6.716-15 15v30c0 8.282 6.716 15 15 15h151c8.282 0 15-6.718 15-15v-30c0-8.284-6.718-15-15-15z"/><path d="m346 136h-39.595c-7.332 0-13.59 5.301-14.795 12.534l-4.995 30.004c-1.521 9.14 5.528 17.462 14.795 17.462h118.072c-6.969-34.191-37.267-60-73.482-60z"/><path d="m419.482 316h-148.072c-7.332 0-13.59 5.303-14.795 12.537l-4.995 30.002c-1.527 9.064 5.475 17.461 14.795 17.461h79.585c36.215 0 66.513-25.809 73.482-60z"/></g></svg>
+                                            <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path fill-rule="evenodd" clip-rule="evenodd" d="M8 12C10.2091 12 12 10.2091 12 8C12 5.79086 10.2091 4 8 4C5.79086 4 4 5.79086 4 8C4 10.2091 5.79086 12 8 12Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M10 42C13.3137 42 16 39.3137 16 36C16 32.6863 13.3137 30 10 30C6.68629 30 4 32.6863 4 36C4 39.3137 6.68629 42 10 42Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M38 44C41.3137 44 44 41.3137 44 38C44 34.6863 41.3137 32 38 32C34.6863 32 32 34.6863 32 38C32 41.3137 34.6863 44 38 44Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M22 28C26.4183 28 30 24.4183 30 20C30 15.5817 26.4183 12 22 12C17.5817 12 14 15.5817 14 20C14 24.4183 17.5817 28 22 28Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M34 12C36.2091 12 38 10.2091 38 8C38 5.79086 36.2091 4 34 4C31.7909 4 30 5.79086 30 8C30 10.2091 31.7909 12 34 12Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M11 11L15 15" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M30 12L28 14" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M34 33.5L28 26" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M14 31L18 27" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
                                         </div>
                                         Laravel, Livewire, Vue
                                     </div>
@@ -80,7 +133,7 @@
                             </x-card>
                         </div>
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="mb-6">
+                            <x-card class="mb-6 shadow-none">
                                 <x-slot name="title">
                                     <div class="pb-2">
                                         <div class="mb-4 text-blue-500">
@@ -93,11 +146,11 @@
                             </x-card>
                         </div>
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="mb-6">
+                            <x-card class="mb-6 shadow-none">
                                 <x-slot name="title">
                                     <div class="pb-2">
                                         <div class="mb-4 text-blue-500">
-                                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5H7a2 2 0 00-2 2v12a2 2 0 002 2h10a2 2 0 002-2V7a2 2 0 00-2-2h-2M9 5a2 2 0 002 2h2a2 2 0 002-2M9 5a2 2 0 012-2h2a2 2 0 012 2m-6 9l2 2 4-4"></path></svg>
+                                            <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path fill-rule="evenodd" clip-rule="evenodd" d="M6 42H42V6H32H30C28.6758 9.15854 26.6758 10.7378 24 10.7378C21.3242 10.7378 19.3242 9.15854 18 6H16H6V42Z" fill="none" stroke="#4853f2" stroke-width="4" stroke-linejoin="round"/><path d="M15 24L21 30L33 18" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
                                         </div>
                                         Actions
                                     </div>
@@ -106,11 +159,11 @@
                             </x-card>
                         </div>
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="mb-6">
+                            <x-card class="mb-6 shadow-none">
                                 <x-slot name="title">
                                     <div class="pb-2">
                                         <div class="mb-4 text-blue-500">
-                                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -3 24 24" class="w-8 h-8 fill-current" preserveAspectRatio="xMinYMin" class="jam-icon jam-0"><path d="M7.116 10.749L6 1.948l-1.116 8.8H1c-.552 0-1-.437-1-.976a.99.99 0 011-.978h2.116l.9-7.086C4.15.636 5.15-.124 6.245.008c.91.11 1.626.81 1.739 1.7l.899 7.086h1.974L12 16.04l1.142-7.245H19c.552 0 1 .438 1 .978s-.448.977-1 .977h-4.142l-.881 5.587a1.978 1.978 0 01-1.672 1.634c-1.092.165-2.113-.567-2.282-1.634l-.88-5.587H7.115z"/></svg>
+                                            <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="none" fill-opacity="0.01"/><path fill-rule="evenodd" clip-rule="evenodd" d="M4 42H44H4Z" fill="none"/><path d="M4 42H44" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><rect x="8" y="28" width="6" height="14" fill="none" stroke="#4853f2" stroke-width="4" stroke-linejoin="round"/><rect x="21" y="18" width="6" height="24" fill="none" stroke="#4853f2" stroke-width="4" stroke-linejoin="round"/><rect x="34" y="6" width="6" height="36" fill="none" stroke="#4853f2" stroke-width="4" stroke-linejoin="round"/></svg>
                                         </div>
                                         Charts
                                     </div>
@@ -120,11 +173,11 @@
                         </div>
                         
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="mb-6">
+                            <x-card class="mb-6 shadow-none">
                                 <x-slot name="title">
                                     <div class="pb-2">
                                         <div class="mb-4 text-blue-500">
-                                            <svg class="w-8 h-8" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 12l2 2 4-4m5.618-4.016A11.955 11.955 0 0112 2.944a11.955 11.955 0 01-8.618 3.04A12.02 12.02 0 003 9c0 5.591 3.824 10.29 9 11.622 5.176-1.332 9-6.03 9-11.622 0-1.042-.133-2.052-.382-3.016z"></path></svg>
+                                            <svg class="w-8 h-8" viewBox="0 0 48 48" xmlns="http://www.w3.org/2000/svg"><g><g><rect fill-opacity="0.01" fill="#FFFFFF" x="0" y="0" width="48" height="48" stroke-width="4" stroke="none" fill-rule="evenodd"/><path d="M6,8.25564385 L24.008642,3 L42,8.25564385 L42,19.0336798 C42,30.3621834 34.7502223,40.4194233 24.0026245,44.0005035 L24.0026245,44.0005035 C13.2520792,40.4194856 6,30.3599802 6,19.0286999 L6,8.25564385 Z" stroke="#4853f2" stroke-width="4" fill="none" fill-rule="nonzero" stroke-linejoin="round"/></g></g></svg>
                                         </div>
                                         Permission
                                     </div>
@@ -132,28 +185,37 @@
                                 Litstack makes it easy to create authorization through permissions. Also the build in permission manager makes managing roles and permissions a breeze.
                             </x-card>
                         </div>
-                        <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="mb-6">
-                                <x-slot name="title">
-                                    <div class="pb-2">
-                                        <div class="mb-4 text-blue-500">
-                                            <svg class="w-8 h-8 fill-current" stroke="currentColor" viewBox="0 0 512.004 512.004" xmlns="http://www.w3.org/2000/svg"><g><path d="m467.002 121h-219.957l-36.809-110.732c-2.038-6.131-7.773-10.268-14.234-10.268h-151c-24.813 0-45 20.187-45 45v301c0 24.813 20.187 45 45 45h165.297l36.509 110.438c2.017 6.468 7.999 10.566 14.329 10.566.035 0 .07-.004.105-.004h205.761c24.813 0 45-20.187 45-45v-301c-.001-24.813-20.188-45-45.001-45zm-422 240c-8.271 0-15-6.729-15-15v-301c0-8.271 6.729-15 15-15h140.179l110.027 331c-56.192 0-194.724 0-250.206 0zm247.729 30-29.4 64.841-21.435-64.841zm189.271 76c0 8.271-6.729 15-15 15h-182.592l45.253-99.806c1.623-3.579 1.699-7.544.571-10.932l-73.217-220.262h209.985c8.271 0 15 6.729 15 15z"/><path d="m196.002 181h-45c-8.284 0-15 6.716-15 15s6.716 15 15 15h27.42c-6.192 17.459-22.865 30-42.42 30-24.813 0-45-20.187-45-45s20.187-45 45-45c12.02 0 23.32 4.681 31.82 13.18 5.857 5.858 15.355 5.858 21.213 0 5.857-5.858 5.857-15.355 0-21.213-14.166-14.166-33-21.967-53.033-21.967-41.355 0-75 33.645-75 75s33.645 75 75 75 75-33.645 75-75c0-8.284-6.716-15-15-15z"/><path d="m436.002 241h-45v-15c0-8.284-6.716-15-15-15s-15 6.716-15 15v15h-45c-8.284 0-15 6.716-15 15s6.716 15 15 15h87.139c-4.771 14.185-15.02 30.996-26.938 47.174-2.567-3.466-5.102-7.013-7.547-10.609-4.659-6.851-13.988-8.628-20.838-3.969-6.851 4.658-8.627 13.988-3.969 20.839 4.208 6.189 8.62 12.211 13.017 17.919-7.496 8.694-14.885 16.57-21.369 22.94-5.913 5.802-6.003 15.299-.201 21.212 5.778 5.889 15.274 6.027 21.212.201.517-.508 8.698-8.566 19.624-20.937 10.663 12.2 18.645 20.218 19.264 20.837 5.855 5.855 15.349 5.858 21.208.002 5.858-5.855 5.861-15.352.007-21.212-.157-.157-9.34-9.392-21.059-23.059 21.233-27.448 34.179-51.357 38.663-71.338h1.786c8.284 0 15-6.716 15-15s-6.715-15-14.999-15z"/></g></svg>
-                                        </div>
-                                        Translations
-                                    </div>
-                                </x-slot>
-                                Managing translatable content is easier than ever with translatable fields.
-                            </x-card>
-                        </div>
                     </div>
                 </div>
             </section>
             
-            <section class="relative bg-blue-100">
-                <div class="absolute top-0 w-full -mt-1 text-blue-900 ">
+            <section class="relative bg-blue-100 ">
+                <div class="absolute top-0 w-full -mt-4 text-blue-900 lg:-mt-2">
                     <svg viewBox="0 0 800 83" class="w-full h-auto transform rotate-180 fill-current" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M0 82.871V62.3C134.017 20.767 267.584 0 400.701 0 533.818 0 666.917 20.767 800 62.3v20.571H0z"/></svg>
                 </div>
                 <div class="relative flex justify-center">
+                    <div class="w-full md:w-1/2 lg:w-1/3 col -mt-48 lg:-mt-32">
+                        <x-card class="mb-6 shadow-none">
+                            <x-slot name="title">
+                                <div class="pb-2">
+                                    <div class="mb-4 text-blue-500">
+                                        <svg class="w-8 h-8" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M17 32L19.1875 27M31 32L28.8125 27M19.1875 27L24 16L28.8125 27M19.1875 27H28.8125" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M43.1999 20C41.3468 10.871 33.2758 4 23.5999 4C13.9241 4 5.85308 10.871 4 20L10 18" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M4 28C5.85308 37.129 13.9241 44 23.5999 44C33.2758 44 41.3468 37.129 43.1999 28L38 30" stroke="#4853f2" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                                    </div>
+                                    Translations
+                                </div>
+                            </x-slot>
+                            <span class="text-blue-200">Managing translatable content is easier than ever with translatable fields.</span>
+                        </x-card>
+                    </div>
+                </div>
+
+                {{-- <div class="relative flex justify-center mt-2">
+                    <div class="bg-white w-10 h-10 rounded-full flex justify-center items-center shadow-lg">
+                        <?xml version="1.0" encoding="UTF-8"?><svg width="24" height="24" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M24.0083 35.8995V12" stroke="#2831C5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M36 24L24 36L12 24" stroke="#2831C5" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/></svg>
+                    </div>
+                </div> --}}
+                
+                {{-- <div class="relative flex justify-center">
                     <div class="pt-20 pb-40 -mt-48 text-center text-blue-100 lg:pb-24 lg:-mt-32">
                         <svg xmlns="http://www.w3.org/2000/svg" viewBox="-2 -2 24 24" class="w-8 h-8 mx-auto fill-current" preserveAspectRatio="xMinYMin" class="jam-icon jam-3"><path d="M6 2H3a1 1 0 00-1 1v2a1 1 0 001 1h2a1 1 0 001-1V2zM3.01 8v9.965H5V13a2 2 0 012-2h2a2 2 0 012 2v4.965h6.013V8H15c-.768 0-1.47-.289-2-.764A2.989 2.989 0 0111 8H9c-.768 0-1.47-.289-2-.764A2.989 2.989 0 015 8H3.01zm-2-.754A2.993 2.993 0 010 5V3a3 3 0 013-3h14a3 3 0 013 3v2c0 .882-.38 1.676-.987 2.225v10.74a2 2 0 01-2 2h-7.64A2.01 2.01 0 019 20H7a2.01 2.01 0 01-.373-.035H3.011a2 2 0 01-2-2V7.245zM9 17.966V13H7v4.965h2zM12 2H8v3a1 1 0 001 1h2a1 1 0 001-1V2zm2 0v3a1 1 0 001 1h2a1 1 0 001-1V3a1 1 0 00-1-1h-3zm0 9h1a1 1 0 011 1v3a1 1 0 01-1 1h-1a1 1 0 01-1-1v-3a1 1 0 011-1z"/></svg>
                         <h2 class="pt-3 pb-0 text-xl font-semibold ">
@@ -163,15 +225,40 @@
                             Check out the official litstack packages<br>
                         </p>
                     </div>
-                </div>
+                </div> --}}
             </section>
-            <section class="relative pb-12 ">
+            <section class="relative pb-24">
                 
                 <div class="container">
+                    <div class="row justify-center">
+                        <div class="pt-32 pb-40 text-center text-blue-900 lg:pb-24">
+                            <h2 class="pt-3 pb-0 text-xl font-semibold">
+                                ... and its Open-Source!
+                            </h2>
+                            <p class="-mt-2 mb-20">
+                                Just install it via composer.<br>
+                            </p>
+                            <code class="p-8 mt-10 rounded shadow-lg h-full bg-gray-800 text-white font-mono">
+                            composer require litstack/litstack
+                            </code>
+                        </div>
+                    </div>
+
+                    <div class="mt-20 mb-10 row justify-center">
+                        <div>
+                            <div class="justify-center flex">
+                                <svg class="w-10 h-10 mb-2" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="48" height="48" fill="white" fill-opacity="0.01"/><path d="M4 14L3.10557 12.2111C2.428 12.5499 2 13.2425 2 14H4ZM24 4L24.8944 2.21115C24.3314 1.92962 23.6686 1.92962 23.1056 2.21115L24 4ZM44 14H46C46 13.2425 45.572 12.5499 44.8944 12.2111L44 14ZM44 34L44.8944 35.7889C45.572 35.4501 46 34.7575 46 34H44ZM24 44L23.1056 45.7889C23.6686 46.0704 24.3314 46.0704 24.8944 45.7889L24 44ZM4 34H2C2 34.7575 2.428 35.4501 3.10557 35.7889L4 34ZM4.89443 15.7889L24.8944 5.78885L23.1056 2.21115L3.10557 12.2111L4.89443 15.7889ZM42 14V34H46V14H42ZM43.1056 32.2111L23.1056 42.2111L24.8944 45.7889L44.8944 35.7889L43.1056 32.2111ZM24.8944 42.2111L4.89443 32.2111L3.10557 35.7889L23.1056 45.7889L24.8944 42.2111ZM6 34V14H2V34H6ZM44.8944 12.2111L24.8944 2.21115L23.1056 5.78885L43.1056 15.7889L44.8944 12.2111Z" fill="#333"/><path d="M4 14L24 24" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path fill-rule="evenodd" clip-rule="evenodd" d="M24 24V44Z" fill="#FFF"/><path d="M24 44V24" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M44 14L24 24" stroke="#333" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/><path d="M34.8944 10.7889C35.8824 10.2949 36.2828 9.09353 35.7889 8.10557C35.2949 7.11762 34.0935 6.71717 33.1056 7.21115L34.8944 10.7889ZM13.1056 17.2111C12.1176 17.7051 11.7172 18.9065 12.2111 19.8944C12.7051 20.8824 13.9065 21.2828 14.8944 20.7889L13.1056 17.2111ZM33.1056 7.21115L13.1056 17.2111L14.8944 20.7889L34.8944 10.7889L33.1056 7.21115Z" fill="#333"/></svg>
+                            </div>
+                            <p class="text-xl font-bold text-blue-900">
+                                Check out the official packages.<br>
+                            </p>
+                        </div>
+                        
+                    </div>
                     <div class="row">
                         
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="relative pb-24">
+                            <x-card class="relative pb-24 bg-white text-blue-900">
                                 <x-slot name="title">
                                     <div class="pb-4 text-black">
                                         Bladesmith
@@ -191,7 +278,7 @@
                             </x-card>
                         </div>
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="relative pb-24">
+                            <x-card class="relative pb-24 bg-white text-blue-900">
                                 <x-slot name="title">
                                     <div class="pb-4 text-black">
                                         Pages
@@ -212,7 +299,7 @@
                             </x-card>
                         </div>
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
-                            <x-card class="relative pb-24">
+                            <x-card class="relative pb-24 bg-white text-blue-900">
                                 <x-slot name="title">
                                     <div class="pb-4 text-black">
                                         Rehearsal
