@@ -193,7 +193,7 @@
                 <div class="absolute top-0 w-full -mt-4 text-blue-900 lg:-mt-2">
                     <svg viewBox="0 0 800 83" class="w-full h-auto transform rotate-180 fill-current" xmlns="http://www.w3.org/2000/svg" fill-rule="evenodd" clip-rule="evenodd" stroke-linejoin="round" stroke-miterlimit="2"><path d="M0 82.871V62.3C134.017 20.767 267.584 0 400.701 0 533.818 0 666.917 20.767 800 62.3v20.571H0z"/></svg>
                 </div>
-                <div class="relative flex justify-center">
+                <div class="container relative flex justify-center">
                     <div class="w-full md:w-1/2 lg:w-1/3 col -mt-48 lg:-mt-32">
                         <x-card class="mb-6 shadow-none">
                             <x-slot name="title">
