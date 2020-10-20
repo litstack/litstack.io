@@ -231,7 +231,7 @@
                 
                 <div class="container">
                     <div class="row justify-center">
-                        <div class="pt-32 pb-40 text-center text-blue-900 lg:pb-24">
+                        <div class="pb-40 text-center text-blue-900 lg:pb-24" style="padding-top: 10vw;">
                             <h2 class="pt-3 pb-0 text-xl font-semibold">
                                 ... and its Open-Source!
                             </h2>
