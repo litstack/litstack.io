@@ -36,7 +36,7 @@
       
       #carbonads .carbon-wrap {
         //display: flex;
-        background: #e2ecfa;
+        background: #ecf1f6;
         padding: 0.5rem;
         max-width: calc(130px + 1rem);
       }
