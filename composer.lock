@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aw-studio/docdress.git",
-                "reference": "18539869ac162d48b02043cfc0b70318f4ab4704"
+                "reference": "4236b3f20bb6fac7a7516cd44abd75c56eeabe1e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/docdress/zipball/18539869ac162d48b02043cfc0b70318f4ab4704",
-                "reference": "18539869ac162d48b02043cfc0b70318f4ab4704",
+                "url": "https://api.github.com/repos/aw-studio/docdress/zipball/4236b3f20bb6fac7a7516cd44abd75c56eeabe1e",
+                "reference": "4236b3f20bb6fac7a7516cd44abd75c56eeabe1e",
                 "shasum": ""
             },
             "require": {
@@ -116,9 +116,9 @@
             ],
             "support": {
                 "issues": "https://github.com/aw-studio/docdress/issues",
-                "source": "https://github.com/aw-studio/docdress/tree/master"
+                "source": "https://github.com/aw-studio/docdress/tree/v0.1.2"
             },
-            "time": "2021-01-31T19:40:08+00:00"
+            "time": "2021-01-31T20:32:40+00:00"
         },
         {
             "name": "brick/math",
