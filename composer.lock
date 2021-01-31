@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1564b6bc24094e458790a006c7dcd3e8",
+    "content-hash": "9045c6dbf73030a3db9751a46289ac97",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -68,12 +68,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/aw-studio/docdress.git",
-                "reference": "52a4f01f587091d01e741b910b4d5ff76f5bde9e"
+                "reference": "18539869ac162d48b02043cfc0b70318f4ab4704"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/aw-studio/docdress/zipball/52a4f01f587091d01e741b910b4d5ff76f5bde9e",
-                "reference": "52a4f01f587091d01e741b910b4d5ff76f5bde9e",
+                "url": "https://api.github.com/repos/aw-studio/docdress/zipball/18539869ac162d48b02043cfc0b70318f4ab4704",
+                "reference": "18539869ac162d48b02043cfc0b70318f4ab4704",
                 "shasum": ""
             },
             "require": {
@@ -118,7 +118,7 @@
                 "issues": "https://github.com/aw-studio/docdress/issues",
                 "source": "https://github.com/aw-studio/docdress/tree/master"
             },
-            "time": "2020-12-09T12:31:51+00:00"
+            "time": "2021-01-31T19:40:08+00:00"
         },
         {
             "name": "brick/math",
@@ -7736,7 +7736,7 @@
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": "^8.0"
+        "php": "^7.4"
     },
     "platform-dev": [],
     "plugin-api-version": "2.0.0"
