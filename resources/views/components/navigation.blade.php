@@ -5,7 +5,7 @@
         </a>
         <ul class="flex items-center">
             <li class="mr-16 lg:inline-block">
-                <a href="{{ url('docs') }}" target="_blank">Documentation</a>
+                <a href="{{ url('docs') }}">Documentation</a>
             </li>
             <li class="items-center hidden lg:inline-flex">
                 <div class="absolute ml-3">
