@@ -256,7 +256,27 @@
                         
                     </div>
                     <div class="row">
-                        
+
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="relative pb-24 bg-white text-blue-900">
+                                <x-slot name="title">
+                                    <div class="pb-4 text-black">
+                                        Location
+                                    </div>
+                                </x-slot>
+                                <p class="pb-4">A package that ships with a google maps locations picker field which let's you benefit from the extensive places api, to search for location's or pick one from the map.</p>
+                                {{-- <x-stars rating="4" count="92" class="pt-3 pb-4"/> --}}
+                                <a href="{{ url('docs/packages/location') }}" class="py-2 text-blue-600 border-b border-blue-600">
+                                    Go to package
+                                </a>
+                                <footer class="absolute bottom-0 w-full py-4 mt-6 -mx-8 border-t border-blue-200">
+                                    <div class="px-8 text-xs font-bold uppercase">
+                                        <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
+                                        <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
+                                    </div>
+                                </footer>
+                            </x-card>
+                        </div>
                         <div class="w-full md:w-1/2 lg:w-1/3 col">
                             <x-card class="relative pb-24 bg-white text-blue-900">
                                 <x-slot name="title">
@@ -288,6 +308,46 @@
 
                                 {{-- <x-stars rating="4" count="92" class="pt-3 pb-4"/> --}}
                                 <a href="{{ url('docs/packages/pages') }}" class="py-2 text-blue-600 border-b border-blue-600">
+                                    Go to package
+                                </a>
+                                <footer class="absolute bottom-0 w-full py-4 mt-6 -mx-8 border-t border-blue-200">
+                                    <div class="px-8 text-xs font-bold uppercase">
+                                        <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
+                                        <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
+                                    </div>
+                                </footer>
+                            </x-card>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="relative pb-24 bg-white text-blue-900">
+                                <x-slot name="title">
+                                    <div class="pb-4 text-black">
+                                        2 Factor Authentication
+                                    </div>
+                                </x-slot>
+                                <p class="pb-4">A package that adds 2 Factor Authentication to your litstack application. Secure the login or the submitting of forms.</p>
+                                {{-- <x-stars rating="4" count="92" class="pt-3 pb-4"/> --}}
+                                <a href="{{ url('docs/packages/2fa') }}" class="py-2 text-blue-600 border-b border-blue-600">
+                                    Go to package
+                                </a>
+                                <footer class="absolute bottom-0 w-full py-4 mt-6 -mx-8 border-t border-blue-200">
+                                    <div class="px-8 text-xs font-bold uppercase">
+                                        <img src="https://avatars1.githubusercontent.com/u/29352871?s=400&u=5c8e0dde9014befd3205ee103959eeb4adb364eb&v=4" class="inline-block w-8 h-8 mr-3 rounded-full">
+                                        <a href="https://github.com/cbl">Lennart Carstens-Behrens</a>
+                                    </div>
+                                </footer>
+                            </x-card>
+                        </div>
+                        <div class="w-full md:w-1/2 lg:w-1/3 col">
+                            <x-card class="relative pb-24 bg-white text-blue-900">
+                                <x-slot name="title">
+                                    <div class="pb-4 text-black">
+                                        Meta
+                                    </div>
+                                </x-slot>
+                                <p class="pb-4">A package to easily add meta for crud models and forms to your page.</p>
+                                {{-- <x-stars rating="4" count="92" class="pt-3 pb-4"/> --}}
+                                <a href="{{ url('docs/packages/meta') }}" class="py-2 text-blue-600 border-b border-blue-600">
                                     Go to package
                                 </a>
                                 <footer class="absolute bottom-0 w-full py-4 mt-6 -mx-8 border-t border-blue-200">
