@@ -8,7 +8,7 @@
     ],
     "license": "MIT",
     "require": {
-        "php": "^7.4",
+        "php": "^7.4|^8.0",
         "aw-studio/docdress": "^1.0",
         "calebporzio/sushi": "^2.0",
         "cbl/blade-style": "^1.0",
