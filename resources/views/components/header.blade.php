@@ -8,7 +8,7 @@
                 </h1>
                 <h2 class="pb-12 text-lg">
                     Set up appealing Laravel admin panels in record time and make your administrative tasks enjoyable. <br> 
-                    Litstack keeps your application <strong>scalable</strong> from simple CMS to complex buisness logic.
+                    Litstack keeps your application <strong>scalable</strong> from simple CMS to complex business logic.
                 </h2>
                 <div>
                     <a href="https://demo.litstack.io/admin" class="mb-2 mr-4 btn btn-primary">
